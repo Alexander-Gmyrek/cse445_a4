@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This XML intentionally contains 5 errors for Assignment 4 -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  <!-- 1) root element should be <Hotels> -->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+  <!-- 2) missing required attribute Rating on a hotel that is supposed to have it -->
+  <Hotel>
+    <Name>Tempe Mission Palms</Name>
+    <!-- 3) missing a Phone element here -->
+    <Address>
+      <Number>60</Number>
+      <Street>E 5th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <!-- 4) Address element has no closing tag below -->
+      <NearestAirport>Sky Harbor</NearestAirport>
+  </Address>
+  </Hotel>
+  <!-- 5) two <Name> elements for same hotel -->
+  <Hotel Rating="4.0">
+    <Name>AC Hotel Phoenix Tempe</Name>
+    <Name>Duplicate Name</Name>
+    <Phone>480-642-6140</Phone>
+    <Address>
+      <Number>100</Number>
+      <Street>E Rio Salado Pkwy</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+</Hotel>
