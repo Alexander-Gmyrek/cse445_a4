@@ -14,9 +14,12 @@ namespace ConsoleApp1
     public class Program
     {
         // TODO: replace with your real URLs (step 3 in the instructions)
-        public static string xmlURL = "https://yourusername.github.io/cse445_a4/Hotels.xml";
-        public static string xmlErrorURL = "https://yourusername.github.io/cse445_a4/HotelsErrors.xml";
-        public static string xsdURL = "https://yourusername.github.io/cse445_a4/Hotels.xsd";
+        public static string xmlURL = "https://alexander-gmyrek.github.io/cse445_a4/Hotels.xml";
+        public static string xmlErrorURL = "https://alexander-gmyrek.github.io/cse445_a4/HotelsErrors.xml";
+        public static string xsdURL = "https://alexander-gmyrek.github.io/cse445_a4/Hotels.xsd";
+
+ 
+
 
         public static void Main(string[] args)
         {
