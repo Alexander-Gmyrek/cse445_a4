@@ -14,9 +14,9 @@ namespace ConsoleApp1
     public class Program
     {
         // TODO: replace with your real URLs (step 3 in the instructions)
-        public static string xmlURL = "https://alexander-gmyrek.github.io/cse445_a4/Hotels.xml";
-        public static string xmlErrorURL = "https://alexander-gmyrek.github.io/cse445_a4/HotelsErrors.xml";
-        public static string xsdURL = "https://alexander-gmyrek.github.io/cse445_a4/Hotels.xsd";
+        public static string xmlURL      = "https://raw.githubusercontent.com/Alexander-Gmyrek/cse445_a4/main/Hotels.xml";
+        public static string xmlErrorURL = "https://raw.githubusercontent.com/Alexander-Gmyrek/cse445_a4/main/HotelsErrors.xml";
+        public static string xsdURL      = "https://raw.githubusercontent.com/Alexander-Gmyrek/cse445_a4/main/Hotels.xsd";
 
  
 
