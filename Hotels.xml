@@ -17,7 +17,6 @@
     </Address>
   </Hotel>
 
-  <!-- 9 more valid hotels; keep order: Name, Phone(s), Address -->
   <Hotel Rating="4.5">
     <Name>Tempe Mission Palms</Name>
     <Phone>480-894-1400</Phone>
@@ -129,6 +128,20 @@
     <Address>
       <Number>1333</Number>
       <Street>S Rural Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <!-- Add one more to reach 11 total -->
+  <Hotel Rating="4.0">
+    <Name>Aloft Tempe</Name>
+    <Phone>480-621-3300</Phone>
+    <Address>
+      <Number>951</Number>
+      <Street>E Playa Del Norte Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
