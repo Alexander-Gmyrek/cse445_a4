@@ -3,7 +3,7 @@
            elementFormDefault="qualified"
            attributeFormDefault="unqualified">
 
-  <!-- Root element -->
+  <!-- Root: Hotels contains 1..∞ Hotel -->
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
@@ -19,11 +19,11 @@
       <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
       <xs:element name="Address" type="addressType"/>
     </xs:sequence>
-    <!-- Rating is optional attribute -->
+    <!-- Rating is an optional attribute of Hotel -->
     <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
   </xs:complexType>
 
-  <!-- Address structure: Number, Street, City, State, Zip, NearestAirport -->
+  <!-- Address structure: Number, Street, City, State, Zip, NearestAirport (this order) -->
   <xs:complexType name="addressType">
     <xs:sequence>
       <xs:element name="Number" type="xs:string"/>

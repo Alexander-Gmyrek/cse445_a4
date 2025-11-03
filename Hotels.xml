@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Alexander-Gmyrek/cse445_a4/main/Hotels.xsd"
+        xsi:schemaLocation="https://raw.githubusercontent.com/Alexander-Gmyrek/cse445_a4/main/Hotels.xsd">
 
-  <!-- Sample hotel EXACTLY as in the assignment figure (must be included) -->
+  <!-- Sample hotel EXACTLY as in the assignment figure -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -122,7 +123,7 @@
     </Address>
   </Hotel>
 
-  <!-- Example without Rating (allowed; Rating is optional) -->
+  <!-- Example without Rating (allowed) -->
   <Hotel>
     <Name>Moxy Phoenix Tempe</Name>
     <Phone>480-968-3451</Phone>
